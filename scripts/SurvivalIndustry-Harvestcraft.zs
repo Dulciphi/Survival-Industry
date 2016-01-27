@@ -40,3 +40,6 @@ recipes.addShaped(<harvestcraft:skilletItem>,[[brick,null,null],[null,brick,null
 recipes.addShaped(<harvestcraft:saucepanItem>,[[brick],[stick]]);
 recipes.addShaped(<harvestcraft:cuttingboardItem>,[[flint,null,null],[null,stick,null],[null,null,planks]]);
 
+// Fresh milk and water from their respective SIcore buckets
+recipes.addShapeless(<harvestcraft:freshwaterItem>, [<si.core:itemWoodenBucket_water>]);
+recipes.addShapeless(<harvestcraft:freshmilkItem> * 4, [<si.core:itemWoodenBucket_milk>]);
